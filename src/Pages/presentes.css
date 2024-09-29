@@ -20,8 +20,7 @@
 }
 
 .card-image-container {
-  width: 50%; /* Metade do card */
-  height: 200px; /* Altura fixa */
+  width: 50%; /* Metade do card */  
   overflow: hidden; /* Esconder overflow */
 }
 

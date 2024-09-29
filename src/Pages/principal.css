@@ -1,5 +1,5 @@
 .backPrincipal {
-    background-image: url(../assets/backPhoto.png);
+    background-image: url(../assets/backphoto2.png);
     background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem no elemento */
     background-repeat: no-repeat; /* Evita repetição da imagem */
@@ -16,13 +16,13 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 70%;
+    width: 90%;
     
 }
 
 .highlight {
     font-weight: bold;
-    color: red;
+    color: rgb(50, 218, 134);
   }
 
   #img{

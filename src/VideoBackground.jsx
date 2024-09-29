@@ -1,8 +1,7 @@
 // VideoBackground.js
 
-import React from 'react';
 import './VideoBackground.css';
-import videoBack from './assets/backvideo.mp4';
+import videoBack from './assets/backvideo2.mp4';
 
 const VideoBackground = () => {
   return (

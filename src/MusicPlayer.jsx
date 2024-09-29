@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react';
-import audioSrc from './assets/spidey.mp3';
+import audioSrc from './assets/safari.mp3';
 import './MusicPlayer.css'; // Arquivo de estilos CSS (opcional)
 import Button from './button';
 

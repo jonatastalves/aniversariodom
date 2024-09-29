@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.loading-video video{
+  width: 100%;
+}
+
 .video-bg {
   position: absolute;
   top: 0;
