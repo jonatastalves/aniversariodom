@@ -16,7 +16,8 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 82%;
+    max-height: 90vh;
     
 }
 
@@ -30,7 +31,7 @@
   }
 
   #pin {
-    width: 50%;
+    width: 35%;
     animation: pulse 2s infinite;
   }
   

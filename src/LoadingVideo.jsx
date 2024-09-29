@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import videoSrc from './assets/loadingVideo.mp4';
+import videoSrc from './assets/loadingVideo2.mp4';
 import './LoadingVideo.css';
 
 const LoadingVideo = () => {
