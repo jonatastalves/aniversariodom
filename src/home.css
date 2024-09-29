@@ -1,0 +1,27 @@
+.videoaq{
+    z-index: 1;
+}
+
+.buttonaqui{
+    margin-top: 25vh;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;    
+}
+
+.nameInput {
+    margin: 20px;
+    text-align: center;
+}
+
+.nameInput input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.nameInput button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

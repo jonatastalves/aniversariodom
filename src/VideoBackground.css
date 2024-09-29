@@ -1,0 +1,39 @@
+/* VideoBackground.css */
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Coloca o vídeo atrás de outros elementos */
+}
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#vid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Evita barras de rolagem */
+  }
+  
+  .video-background {
+    height: 100vh; /* Ajuste conforme necessário */
+  }
+
+  .video-wrap {
+    height: 100vh; /* Ajuste conforme necessário */
+  }
+}

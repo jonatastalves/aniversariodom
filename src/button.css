@@ -1,0 +1,25 @@
+/* ImageButton.css */
+.container {
+  position: relative;  
+  overflow: hidden; /* Esconde o texto que ultrapassar os limites do container */
+  display: inline-block; /* Permite que os botões fiquem lado a lado */
+  margin: 0; /* Remove margens extras */
+  padding: 0; /* Remove paddings extras */
+}
+
+.background {
+  width: 200px; /* Ajuste conforme necessário */
+  
+}
+
+.text {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black; /* Sombra do texto para melhor visibilidade */
+  z-index: 1; /* Coloca o texto acima da imagem */
+}

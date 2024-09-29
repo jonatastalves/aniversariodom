@@ -1,0 +1,26 @@
+/* components/MusicPlayer.css */
+.music-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Opcional: para criar um fundo semitransparente */
+    z-index: 9999; /* Certifique-se de que está na frente de todos os outros elementos */
+  }
+  
+  .music-player button {
+    margin-top: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10000; /* Certifique-se de que o botão está na frente do fundo semitransparente */
+  }
+
+  #button1{
+    padding-top: 30%;
+  }
+  

@@ -1,0 +1,59 @@
+/* src/components/presentes.css */
+.presentes-container {
+  max-height: 400px; /* Defina a altura máxima desejada */
+  overflow-y: auto; /* Adicione a rolagem vertical quando necessário */
+  padding: 10px; /* Adicione algum padding se necessário */
+  margin-bottom: 30px; /* Espaçamento entre os cards */
+  background-color: #f5f5f5; /* Fundo claro para contraste */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espaçamento entre os cards */
+  background-color: #ffffff; /* Fundo branco para os cards */
+  border-radius: 8px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Esconder overflow */
+}
+
+.card-image-container {
+  width: 50%; /* Metade do card */
+  height: 200px; /* Altura fixa */
+  overflow: hidden; /* Esconder overflow */
+}
+
+.card-image {
+  width: 100%; /* Largura completa dentro do container */
+  height: 100%; /* Altura completa dentro do container */
+  object-fit: cover; /* Ajustar imagem */
+}
+
+.card-content {
+  width: 50%; /* Metade do card */
+  padding: 20px; /* Adicionar padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.card-content h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem; /* Ajustar tamanho da fonte */
+  color: #333; /* Cor da fonte */
+}
+
+.card-content p {
+  margin: 0 0 16px;
+  font-size: 1rem; /* Ajustar tamanho da fonte */
+  color: #666; /* Cor da fonte */
+}
+
+.card-content a {
+  color: #007bff; /* Cor do link */
+  text-decoration: none;
+  font-weight: bold; /* Negrito */
+}

@@ -1,0 +1,54 @@
+/* components/LoadingVideo.css */
+.loading-video {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Para posicionar o texto abaixo do spinner */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparência do fundo */
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3); /* Cor do spinner */
+  border-radius: 50%;
+  border-top: 4px solid #ffffff; /* Cor do spinner */
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+.loading-text {
+  margin-top: 10px; /* Espaço entre o spinner e o texto */
+  color: #ffffff; /* Cor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  font-family: "Marvel", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

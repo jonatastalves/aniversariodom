@@ -1,0 +1,15 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button {
+  display: flex;
+  gap: 10px; /* Adicionei gap para espaçamento entre os botões */
+}

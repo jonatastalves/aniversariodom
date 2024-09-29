@@ -1,0 +1,50 @@
+.backPrincipal {
+    background-image: url(../assets/backPhoto.png);
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    width: 100%;
+    height: 100vh; /* Ajusta a altura para ocupar toda a altura da viewport */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para o conteúdo */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    
+}
+
+.highlight {
+    font-weight: bold;
+    color: red;
+  }
+
+  #img{
+    width: 90%;
+  }
+
+  #pin {
+    width: 50%;
+    animation: pulse 2s infinite;
+  }
+  
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
