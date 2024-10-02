@@ -31,8 +31,7 @@
 }
 
 .card-content {
-  width: 50%; /* Metade do card */
-  padding: 20px; /* Adicionar padding */
+  width: 50%; /* Metade do card */  
   display: flex;
   flex-direction: column;
   justify-content: center;

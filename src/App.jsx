@@ -14,8 +14,8 @@ function App() {
   useEffect(() => {
     // Simulação de um processo de carregamento
     setTimeout(() => {
-      setLoading(false); // Após 30 segundos, define loading como false
-    }, 12000);
+      setLoading(false); // Após 8 segundos, define loading como false
+    }, 8000);
   }, []);
 
   return (
@@ -32,7 +32,7 @@ function App() {
             <Route path='/festa' element={<Principal  />} />
             <Route path='/local' element={<Principal  />} />
             <Route path='/presentes' element={<Principal  />} />
-            <Route path='/confirmar' element={<RedirectToExternal url="https://forms.gle/bK9ZdUQFdK9cajVY7" />} />
+            <Route path='/confirmar' element={<RedirectToExternal url="https://forms.gle/emBpkXFQLa2AbfoH8" />} />
 
           </Routes>
         </div>
