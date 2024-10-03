@@ -22,13 +22,13 @@ const Principal = () => {
       {
         image: roupasDom,
         title: 'Roupas',
-        description: 'Tamanho: 1 ano',
+        description: 'Tamanho: 2 anos',
         link: 'https://www.google.com/search?q=roupas+infantil&oq=roupas+infantil&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE2NzlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8'
       },
       {
         image: calcadoImg,
         title: 'Calçados',
-        description: 'Tamanho: 20/21.',
+        description: 'Tamanho: 19/20.',
         link: 'https://www.google.com/search?q=cal%C3%A7ados+infantil&sca_esv=e1d839af44a7b9af&sxsrf=ADLYWIIT-2gr74MpBj1otdK4jJdtzlxBnA%3A1720041292495&ei=TL-FZqD1HeDC5OUP5OWMkAI&oq=cal%C3%A7ados+infan&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2NhbMOnYWRvcyBpbmZhbioCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESKQTUABYug1wAHgBkAEAmAGxAaABuw6qAQQwLjE0uAEDyAEA-AEBmAIOoAKgD8ICChAjGIAEGCcYigXCAgQQIxgnwgIQEC4YgAQY0QMYQxjHARiKBcICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgINEAAYgAQYsQMYQxiKBcICCxAAGIAEGLEDGMkDwgIIEAAYgAQYsQPCAgsQABiABBiSAxiKBcICERAuGIAEGLEDGNEDGIMBGMcBmAMAkgcEMC4xNKAH1WY&sclient=gws-wiz-serp'
       }, 
       {
